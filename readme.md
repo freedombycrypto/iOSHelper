@@ -27,13 +27,21 @@ import iosCmd from 'ios-automation-helper';
 ## Usage
 
 1. To get Device UDID
+2. A promise based function and resolves to a device udid
 ```bash
-iosCmd.getUDID('iPhone 6s', '11.4');
+
+let g = null;
+
+iosCmd.getUDID('iPhone 6s', '11.4').then(result => {
+});
 ```
 
-2. To get App Bundle ID
+1. To get App Bundle ID
+2. A promise based function which resolve the app bundle id
 ```bash
-ioskdownCmd.getBundleId(<appPath>);
+ioskdownCmd.getBundleId(<appPath>).then(bundleId => {
+
+});
 ```
 
 ## Notes
