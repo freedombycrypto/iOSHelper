@@ -31,6 +31,4 @@ const iosCommands = {
         }
     },
 }
-
-iosCommands.getUDID('iPhone 7', '11.4');
 module.exports = iosCommands;
