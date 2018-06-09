@@ -1,7 +1,10 @@
 
-# iOS Automation Healper
+# iOS Automation Helper
 
-[![NPM Version][npm-image]][npm-url]{}
+## Prerequisite
+
+1. Install xCode 9.0 or later
+2. Download required simulators
 
 ## Install
 
@@ -10,7 +13,7 @@ Using npm:
 npm i ios-automation-helper
 ```
 
-In Node.js:
+Using Node.js:
 ```bash
 var iosCmd = require('ios-automation-helper');
 ```
@@ -23,13 +26,22 @@ import iosCmd from 'ios-automation-helper';
 
 ## Usage
 
+1. To get Device UDID
 ```bash
 iosCmd.getUDID('iPhone 6s', '11.4');
 ```
 
+2. To get App Bundle ID
 ```bash
-iosCmd.getBundleId(<appPath>);
+ioskdownCmd.getBundleId(<appPath>);
 ```
+
+## Notes
+
+1. If you are using .ipa file, pls follow below steps to get BundleId.
+    1. Right click and Open with Archive Utility
+    2. You can see .app file inside Payload folder.
+
 
 ## License
 
