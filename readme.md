@@ -29,9 +29,6 @@ import iosCmd from 'ios-automation-helper';
 1. To get Device UDID
 2. A promise based function and resolves to a device udid
 ```bash
-
-let g = null;
-
 iosCmd.getUDID('iPhone 6s', '11.4').then(result => {
 });
 ```

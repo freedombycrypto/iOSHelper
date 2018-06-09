@@ -1,6 +1,6 @@
 {
   "name": "ios-automation-helper",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "This project is used to get iOS mobile / simulator info and app info",
   "main": "index.js",
   "scripts": {
