@@ -1,0 +1,38 @@
+{
+    "root": true,
+    "extends": [
+        "airbnb-base"
+    ],
+    "parser": "babel-eslint",
+    "globals": {
+    },
+    "rules": {
+        "class-methods-use-this": "off",
+        "func-names": "off", 
+        "indent": [
+            "error",
+            4
+        ],
+        "max-len": "off",
+        "no-await-in-loop": "off",
+        "no-console": "off",
+        "no-duplicate-variable": [
+            true,
+            "check-parameters"
+        ],
+        "no-undef": "error",
+        "no-unused-vars": "off",
+        "object-shorthand": "off",
+        "padded-blocks": "off",
+        "prefer-arrow-cal": "off",
+        "prefer-arrow-callback": "off",
+        "prefer-destructuring": "off",
+        "prefer-template": "off",
+        "quotes": [
+            "error",
+            "double"
+        ],
+        "wrap-iife":"off",
+        "import/no-extraneous-dependencies": "off"
+    }
+}

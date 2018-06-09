@@ -1,0 +1,19 @@
+{
+  "name": "ios-automation-helper",
+  "version": "1.0.0",
+  "description": "This project is used to get iOS mobile / simulator info and app info",
+  "main": "index.js",
+  "devDependencies": {
+    "node-cmd": "^3.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ios",
+    "udid",
+    "bundleid"
+  ],
+  "author": "Vishnu",
+  "license": "ISC"
+}
