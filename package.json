@@ -1,11 +1,8 @@
 {
   "name": "ios-automation-helper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This project is used to get iOS mobile / simulator info and app info",
   "main": "index.js",
-  "devDependencies": {
-    "node-cmd": "^3.0.0"
-  },
   "scripts": {
     "build": "babel src -d dist",
     "build:watch": "babel src -d dist --watch"
@@ -19,10 +16,11 @@
   "email": "vishnuatth@gmail.com",
   "license": "ISC",
   "dependencies": {
-    "babel": "^6.23.0",
+    "node-cmd": "^3.0.0"
+  },
+  "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-eslint": "^8.2.3"
+    "babel-preset-env": "^1.7.0"
   },
   "repository": {
     "url": "https://github.com/Vishnu1067/iOSHelper.git"
