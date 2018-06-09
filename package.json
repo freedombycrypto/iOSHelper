@@ -7,7 +7,8 @@
     "node-cmd": "^3.0.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src -d dist",
+    "build:watch": "babel src -d dist --watch"
   },
   "keywords": [
     "ios",
@@ -15,5 +16,15 @@
     "bundleid"
   ],
   "author": "Vishnu",
-  "license": "ISC"
+  "email": "vishnuatth@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-eslint": "^8.2.3"
+  },
+  "repository": {
+    "url": "https://github.com/Vishnu1067/iOSHelper.git"
+  }
 }

@@ -1,34 +1,39 @@
 
-> ${DESCRIPTION}
+# iOS Automation Healper
 
-[![NPM Version][npm-image]][npm-url]
-[![Linux Build][travis-image]][travis-url]
-[![Test Coverage][coveralls-image]][coveralls-url]
+[![NPM Version][npm-image]][npm-url]{}
 
 ## Install
 
 Using npm:
 ```bash
-npm i ios-automation-cmd
+npm i ios-automation-helper
 ```
 
 In Node.js:
 ```bash
-var iOSCmd = require('ios-automation-cmd');
+var iosCmd = require('ios-automation-helper');
 ```
 
+or
+
+```bash
+import iosCmd from 'ios-automation-helper';
+```
 
 ## Usage
 
-TODO
+```bash
+iosCmd.getUDID('iPhone 6s', '11.4');
+```
+
+```bash
+iosCmd.getBundleId(<appPath>);
+```
 
 ## License
 
 [MIT](http://vjpr.mit-license.org)
 
 [npm-image]: https://img.shields.io/npm/v/live-xxx.svg
-[npm-url]: https://npmjs.org/package/live-xxx
-[travis-image]: https://img.shields.io/travis/live-js/live-xxx/master.svg
-[travis-url]: https://travis-ci.org/live-js/live-xxx
-[coveralls-image]: https://img.shields.io/coveralls/live-js/live-xxx/master.svg
-[coveralls-url]: https://coveralls.io/r/live-js/live-xxx?branch=master
+[npm-url]: https://www.npmjs.com/package/npm
